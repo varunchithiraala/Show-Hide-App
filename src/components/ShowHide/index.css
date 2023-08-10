@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.show-hide-app-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-hide-app-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.show-hide-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.name-container {
+  height: 200px;
+  width: 300px;
+  margin-left: 32px;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show-hide-button {
+  color: #dd1264;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 12px;
+  border: none;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.show-hide-name {
+  text-align: center;
+  background-color: #fddddb;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 12px;
+  padding-left: 106px;
+  padding-right: 106px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
